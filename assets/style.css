@@ -1,0 +1,25 @@
+
+:root{
+  --bg:#0b1220;
+  --panel:#111b2d;
+  --text:#eef5ff;
+  --muted:#a9bad4;
+  --line:#29405f;
+  --accent:#69a9ff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Segoe UI,Arial,sans-serif;line-height:1.65}
+main{max-width:920px;margin:0 auto;padding:48px 24px 72px}
+header{padding:12px 0 28px;border-bottom:1px solid var(--line);margin-bottom:32px}
+h1{font-size:38px;line-height:1.15;margin:0 0 8px}
+h2{margin-top:32px;font-size:23px}
+h3{margin-top:24px;font-size:18px}
+p,li{color:var(--muted)}
+a{color:var(--accent)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:24px;margin:18px 0}
+.meta{font-size:14px;color:var(--muted)}
+.notice{border-left:4px solid var(--accent);padding:14px 16px;background:#0f1b2f;border-radius:8px}
+nav{display:flex;gap:16px;flex-wrap:wrap;margin-top:14px}
+nav a{text-decoration:none}
+footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+code{background:#0d1728;border:1px solid #20334e;border-radius:5px;padding:2px 6px}
